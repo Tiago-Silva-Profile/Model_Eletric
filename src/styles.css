@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --header-primary-color: #322B26; /* Cor principal para o texto e links */
+  --header-hover-color: #FDFDFD; /* Cor de fundo dos links ao passar o mouse */
+  --header-background-color: #E19634; /* Cor de fundo do header */
+  --header-text-color: #FDFDFD; /* Cor do texto dos links e logo */
+  --header-box-shadow-color: rgba(0, 0, 0, 0.1);
+
+  --about-background-color: #c0c1c2; /* Cor de fundo do about */
+  --about-heading-color: #E19634; /* Cor dos headings */
+  --about-text-color-light: #FFFFFF; /* Cor do texto */
+}

@@ -1,0 +1,83 @@
+.header {
+  position: absolute; /* Para ficar ajustável no topo */
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--header-background-color); /* Cor de fundo do header */
+  box-shadow: 0 1px 4px var(--header-box-shadow-color); /* Corrigido para a cor da sombra */
+  z-index: 1000; /* Para garantir que o header esteja acima dos outros elementos */
+  transition: background-color 0.3s, box-shadow 0.3s, position 0.3s; /* Transições suaves */
+}
+
+.header.scrolled {
+  position: fixed; /* Para ficar fixo ao rolar a página */
+  background-color: var(--header-background-color);
+  box-shadow: 0 2px 6px var(--header-box-shadow-color); /* Sombra mais intensa quando rolado */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.header.scrolled .logo img{
+  height: 70px;
+}
+
+.header + .content {
+  margin-top: 80px; /* Ajuste conforme necessário para compensar a altura do header */
+}
+
+.header .logo img {
+  height: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: var(--header-text-color); /* Cor do texto dos links */
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 30px; /* Ajuste o tamanho da fonte para 30px */
+  transition: background-color 0.3s, color 0.3s; /* Corrigido para a transição */
+}
+
+nav ul li a:hover {
+  background-color: var(--header-hover-color); /* Cor de fundo ao passar o mouse */
+  color: var(--header-primary-color); /* Cor do texto ao passar o mouse */
+}
+
+.header.scrolled nav ul li a {
+  color: var(--header-scrolled-text-color); /* Cor do texto dos links quando o header está rolado */
+}
+
+.social-media {
+  display: flex;
+  gap: 15px; /* Espaço entre os ícones */
+  align-items: center; /* Alinha os ícones verticalmente */
+}
+
+.social-media svg {
+  width: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+  height: 24px;
+  fill: var(--header-text-color); /* Cor dos ícones */
+  transition: fill 0.3s ease; /* Transição suave na cor dos ícones */
+}
+
+.social-media svg:hover {
+  fill: var(--header-hover-color); /* Cor dos ícones ao passar o mouse */
+}

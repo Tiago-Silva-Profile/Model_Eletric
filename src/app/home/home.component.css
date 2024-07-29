@@ -1,0 +1,23 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.home-image {
+  width: 100%;
+  height: 70em;
+  object-fit: cover; /* This ensures the image covers the entire area without distorting */
+}
+
+/* Classe para ocultar a imagem inicialmente */
+.fade-in-image {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Classe para mostrar a imagem */
+.fade-in-image.visible {
+  opacity: 1;
+}

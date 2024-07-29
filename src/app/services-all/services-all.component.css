@@ -1,0 +1,65 @@
+.services-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.line-servicesSpec{
+  display: flex;
+  justify-content: center;
+}
+
+.line{
+  width: 100px;
+  height: 5px;
+  background-color: #E19634;
+  margin: 3rem 0 3rem 60rem;
+}
+
+.servicesSpec{
+  display: flex;
+  width: 50%;
+}
+
+.h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.h1 h1{
+  width: 50%;
+}
+
+.service {
+  display: flex;
+  margin: 10px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-image {
+  border: 10rem solid red;
+}
+
+.serviceDescri{
+  margin-top: 10px;
+  font-size: 25px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.service img {
+  width: 253px;
+  height: 292px;
+  display: block;
+  margin: 0 auto;
+}
+
+.service p {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #333;
+}
