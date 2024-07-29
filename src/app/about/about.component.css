@@ -77,9 +77,11 @@
 .info-text h2 {
   color: var(--about-heading-color);
   margin: 0;
+  font-size: 25px;
 }
 
 .info-text p {
   color: var(--about-text-color-light);
   margin: 5px 0;
+  font-size: 17px;
 }
