@@ -23,8 +23,8 @@
   align-content: flex-start;
 }
 
-.header.scrolled .logo img{
-  height: 70px;
+.header.scrolled .logo img {
+  max-height: 50px;
 }
 
 .header + .content {
@@ -71,6 +71,11 @@ nav ul li a:hover {
   align-items: center; /* Alinha os ícones verticalmente */
 }
 
+.social-media a {
+  margin: 0 10px;
+  color: #000;
+}
+
 .social-media svg {
   width: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
   height: 24px;
@@ -80,4 +85,81 @@ nav ul li a:hover {
 
 .social-media svg:hover {
   fill: var(--header-hover-color); /* Cor dos ícones ao passar o mouse */
+}
+
+/* Media queries para responsividade */
+
+/* Telas pequenas (smartphones) */
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .header .logo img {
+    height: 100px; /* Ajuste o tamanho da logo para telas pequenas */
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 24px; /* Ajuste o tamanho da fonte para telas pequenas */
+    width: 100%;
+    text-align: center; /* Centraliza o texto dentro do link */
+  }
+
+  .social-media {
+    margin-top: 10px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center; /* Centraliza os ícones de redes sociais */
+  }
+
+  .social-media svg {
+    width: 24px; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: 24px;
+  }
+}
+
+/* Telas médias (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+  .header .logo img {
+    height: 120px; /* Ajuste o tamanho da logo para tablets */
+  }
+
+  nav ul li a {
+    font-size: 28px; /* Ajuste o tamanho da fonte para tablets */
+  }
+}
+
+/* Telas grandes (desktops) */
+@media (min-width: 993px) and (max-width: 1440px) {
+  .header .logo img {
+    height: 130px; /* Ajuste o tamanho da logo para desktops */
+  }
+
+  nav ul li a {
+    font-size: 30px; /* Ajuste o tamanho da fonte para desktops */
+  }
+}
+
+/* Telas muito grandes (monitores grandes) */
+@media (min-width: 1441px) {
+  .header .logo img {
+
+    height: 150px; /* Ajuste o tamanho da logo para monitores grandes */
+  }
+
+  nav ul li a {
+    font-size: 32px; /* Ajuste o tamanho da fonte para monitores grandes */
+  }
 }

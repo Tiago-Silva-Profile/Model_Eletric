@@ -11,3 +11,25 @@
   --about-heading-color: #E19634; /* Cor dos headings */
   --about-text-color-light: #FFFFFF; /* Cor do texto */
 }
+
+@media (max-width: 576px) {
+  *{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Telas médias (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+
+}
+
+/* Telas grandes (desktops) */
+@media (min-width: 993px) and (max-width: 1440px) {
+
+}
+
+/* Telas muito grandes (monitores grandes) */
+@media (min-width: 1441px) {
+
+}
