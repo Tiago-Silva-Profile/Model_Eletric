@@ -15,6 +15,11 @@
   align-items: center;
 }
 
+.container{
+  max-width: 100%;
+  height: 30rem;
+}
+
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -48,4 +53,65 @@
 
 .footer-info p {
   margin: 0;
+}
+
+
+/* Estilos responsivos */
+
+/* Resolução 1920x1080 */
+@media (max-width: 1920px) and (min-width: 1537px) {
+  .home-image {
+    height: 60em; /* Ajuste a altura conforme necessário */
+  }
+}
+
+/* Estilos responsivos */
+
+/* Resolução 1536x864 */
+@media (max-width: 1536px) and (min-width: 1441px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+/* Resolução 1440x900 */
+@media (max-width: 1440px) and (min-width: 1367px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+/* Resolução 1366x768 */
+@media (max-width: 1366px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+/* Estilos gerais para tamanhos de tela menores */
+@media (max-width: 1200px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer, .footer .container {
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

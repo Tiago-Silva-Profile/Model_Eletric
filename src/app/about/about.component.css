@@ -2,31 +2,87 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  padding: 20px;
+.container-fluid {
 }
 
-.card {
-  margin-bottom: 20px;
+.card-about-container {
   border: none;
-  margin-top: 5em;
+  margin-top: 10em;
+  display: flex;
+  align-items: center;
+
 }
 
 .img-fluid{
   width: 40em;
   height: 35em;
 }
+.card-text-exp{
+  font-size: 25px;
+  width: 70rem;
+}
 
 .card-text{
   font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.card-title-exp{
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 .card-title{
-  font-size: 50px;
+  font-size: 1.7rem;
+  color: #f7b360;
+
 }
 
-.additional-info .row {
-  margin-top: 20px;
+.no-gutters{
+  display: flex;
+  align-content: center;
+  width: 80em;
+}
+
+.additional-info {
+  background-color: #979B9E;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.additional-info .card {
+  background-color: #979B9E;
+  border: none;
+}
+
+.bi{
+  color: #f7b360;
+}
+
+.additional-info .card-footer {
+  background-color: transparent;
+}
+
+.additional-info .info-block .card-body {
+  padding: 0;
+}
+
+.additional-info .info-block .card-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.additional-info .info-block .card-text {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.additional-info .info-block .d-flex {
+  padding: 10px;
 }
 
 .info-block {
@@ -43,4 +99,38 @@ body {
 
 .card-footer {
   text-align: center;
+}
+
+/* Estilos responsivos */
+
+/* Resolução 1536x864 */
+@media (max-width: 1536px) and (min-width: 1441px) {
+
+}
+
+/* Resolução 1440x900 */
+@media (max-width: 1440px) and (min-width: 1367px) {
+
+}
+
+/* Resolução 1366x768 */
+@media (max-width: 1366px) {
+
+}
+
+/* Estilos gerais para tamanhos de tela menores */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
 }

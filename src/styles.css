@@ -14,22 +14,57 @@
 
 @media (max-width: 576px) {
   *{
-    margin-left: 0;
-    margin-right: 0;
+    max-width: 100%;
   }
 }
 
-/* Telas médias (tablets) */
-@media (min-width: 577px) and (max-width: 992px) {
+/* Estilos responsivos */
 
+/* Resolução 1536x864 */
+@media (max-width: 1536px) and (min-width: 1441px) {
+  *{
+    max-width: 100%;
+  }
 }
 
-/* Telas grandes (desktops) */
-@media (min-width: 993px) and (max-width: 1440px) {
-
+/* Resolução 1440x900 */
+@media (max-width: 1440px) and (min-width: 1367px) {
+  *{
+    max-width: 100%;
+  }
 }
 
-/* Telas muito grandes (monitores grandes) */
-@media (min-width: 1441px) {
+/* Resolução 1366x768 */
+@media (max-width: 1366px) {
+  *{
+    max-width: 100%;
+  }
+}
 
+/* Estilos gerais para tamanhos de tela menores */
+@media (max-width: 1200px) {
+  *{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  *{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  *{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  * {
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
 }

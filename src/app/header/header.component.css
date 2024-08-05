@@ -155,7 +155,7 @@ nav ul li a:hover {
 /* Telas muito grandes (monitores grandes) */
 @media (min-width: 1441px) {
   .header .logo img {
-
+    max-width: 100%;
     height: 150px; /* Ajuste o tamanho da logo para monitores grandes */
   }
 

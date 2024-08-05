@@ -1,3 +1,7 @@
+.carousel{
+  margin-top: 11rem;
+}
+
 .home-container {
   left: 0;
   right: 0;
@@ -22,59 +26,4 @@
 /* Classe para mostrar a imagem */
 .fade-in-image.visible {
   opacity: 1;
-}
-
-/* Estilos responsivos */
-
-/* Resolução 1920x1080 */
-@media (max-width: 1920px) and (min-width: 1537px) {
-  .home-image {
-    height: 60em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-/* Resolução 1536x864 */
-@media (max-width: 1536px) and (min-width: 1441px) {
-  .home-image {
-    height: 55em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-/* Resolução 1440x900 */
-@media (max-width: 1440px) and (min-width: 1367px) {
-  .home-image {
-    height: 50em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-/* Resolução 1366x768 */
-@media (max-width: 1366px) {
-  .home-image {
-    height: 45em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-/* Estilos gerais para tamanhos de tela menores */
-@media (max-width: 1200px) {
-  .home-image {
-    height: 40em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-@media (max-width: 992px) {
-  .home-image {
-    height: 35em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-@media (max-width: 768px) {
-  .home-image {
-    height: 30em; /* Ajuste a altura conforme necessário */
-  }
-}
-
-@media (max-width: 576px) {
-  .home-image {
-    height: 25em; /* Ajuste a altura conforme necessário */
-  }
 }
