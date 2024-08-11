@@ -78,6 +78,9 @@ nav ul li a:hover {
 /* Resolução 1536x864 */
 @media (max-width: 1536px) and (min-width: 1441px) {
 
+  .header{
+    width: 100%;
+  }
 }
 
 /* Resolução 1440x900 */
@@ -97,10 +100,16 @@ nav ul li a:hover {
 
 @media (max-width: 992px) {
 
+  .header{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
 
+  .header{
+    width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
