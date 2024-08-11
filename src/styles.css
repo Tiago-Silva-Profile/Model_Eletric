@@ -12,59 +12,9 @@
   --about-text-color-light: #FFFFFF; /* Cor do texto */
 }
 
-@media (max-width: 576px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-/* Estilos responsivos */
-
-/* Resolução 1536x864 */
-@media (max-width: 1536px) and (min-width: 1441px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-/* Resolução 1440x900 */
-@media (max-width: 1440px) and (min-width: 1367px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-/* Resolução 1366x768 */
-@media (max-width: 1366px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-/* Estilos gerais para tamanhos de tela menores */
-@media (max-width: 1200px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 992px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  *{
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 576px) {
-  * {
-    max-width: 100%;
-    width: 100%;
-    left: 0;
-    right: 0;
-  }
+*{
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; /* Ajuste para pegar 100% da largura */
 }
